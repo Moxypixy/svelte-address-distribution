@@ -155,7 +155,9 @@
               <th class="text-right">Min. Holdings</th>
               <th class="text-right">Address Count</th>
               <th class="text-right">24h Change</th>
-              <th class="text-right">Total Usage</th>
+              <th class="text-right">
+                <div class="amount-wrapper">Total Usage</div>
+              </th>
             </tr>
           </thead>
           <tbody>
