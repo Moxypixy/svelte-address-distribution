@@ -294,7 +294,7 @@
 
   /* Helpers */
   .text-right {
-    text-align: right;
+    text-align: right !important;
   }
   .text-muted {
     color: #a1a1aa;
@@ -349,6 +349,7 @@
 
   .amount-wrapper {
     display: flex;
+    width: 100%; /* Ensure full width for alignment */
     align-items: baseline;
     justify-content: flex-end;
     gap: 0.25rem;
